@@ -10,7 +10,79 @@
 </head>
 
 <body>
-  <div class="wrapper"></div>
+  <div class="wrapper">
+    <header>
+      <div class="logo">
+        <img src="/assets/logo.png" alt="Logo">
+      </div>
+      <nav>
+        <a href="#about-me">About me</a>
+        <a href="#technologies">My Technologies</a>
+        <a href="#projects">My Projects</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <h1>Hello, I am "ENTER YOUR NAME"<br>frontend developer</h1>
+        <div class="description">
+          <p>I've worked on various web projects, focusing on responsive designs and cross-browser compatibility. I'm proficient in React, Angular, and Git.</p>
+          <p>I'm seeking opportunities to grow my skills and contribute to innovative projects. If you need a frontend developer who values user experience, let's connect!</p>
+      </section>
+
+      <section class="technologies">
+        <h2>My Technologies</h2>
+        <div class="tech">
+          <div class="tech-item">
+            <img src="/assets/html.svg" alt="HTML Icon" class="tech-icon">
+            <div class="tech-info">
+              <h3>HTML</h3>
+              <ul>
+                <li>Elements</li>
+                <li>Attributes</li>
+                <li>Forms</li>
+                <li>Canvas</li>
+                <li>Semantic Tags</li>
+                <li>Accessibility</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tech-item">
+            <img src="/assets/css.svg" alt="CSS Icon" class="tech-icon">
+            <div class="tech-info">
+              <h3>CSS</h3>
+              <ul>
+                <li>Selectors</li>
+                <li>Colors</li>
+                <li>Box Model</li>
+                <li>Flex</li>
+                <li>Grid</li>
+                <li>Pseudo-Classes</li>
+                <li>Pseudo-Elements</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tech-item">
+            <img src="/assets/js.svg" alt="JavaScript Icon" class="tech-icon">
+            <div class="tech-info">
+              <h3>JavaScript</h3>
+              <ul>
+                <li>Variables</li>
+                <li>Operators</li>
+                <li>Data Types</li>
+                <li>Objects</li>
+                <li>Array</li>
+                <li>Functions</li>
+                <li>Date</li>
+                <li>Comparison and Logical Operators</li>
+                <li>Events</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
   <script>
     const menuToggle = document.querySelector(".menu-toggle");
     const nav = document.querySelector(".nav");
@@ -20,6 +92,8 @@
       nav.classList.toggle("is-active");
     })
   </script>
+
+
 </body>
 
 </html>
